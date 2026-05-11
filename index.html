@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Casa en Alquiler | Vivienda Moderna y Acogedora</title>
+  <meta name="description" content="Casa en alquiler: vivienda moderna y acogedora. Galería, características y contacto." />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/caracol-logo.png" type="image/png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Botón volver arriba -->
+  <button id="btnTop" class="btn-top" aria-label="Volver arriba">⬆</button>
+
+  <!-- HEADER -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a class="logo" href="#home" aria-label="Inicio — Casa en Alquiler">
+        <img src="images/caracol-logo.png" alt="Logo de Casa en Alquiler" />
+      </a>
+
+      <nav class="site-nav" role="navigation" aria-label="Menú principal">
+        <a href="#home">Inicio</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main id="main">
+
+    <!-- HERO -->
+    <section id="home" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <h1 id="hero-title">Casa en Alquiler</h1>
+        <p class="lead">
+          Vivienda moderna y acogedora, perfecta para ti y tu familia. Cerca de servicios y con buena comunicación.
+        </p>
+        <a class="cta" href="#contacto" role="button">Contactar</a>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="gallery container" aria-labelledby="galeria-title">
+      <h2 id="galeria-title">Galería</h2>
+
+      <div class="grid" role="list" aria-label="Galería de fotos de la casa en alquiler">
+        <!-- Se generaron 14 imágenes -->
+        <!-- Puedes añadir o quitar libremente -->
+        <!-- Cada figure es un item de galería -->
+        
+        <!-- IMPORTANTE: usa tus imágenes renombradas -->
+        <figure role="listitem">
+  <img src="images/foto-casa-1.jpg" alt="Foto 1" loading="lazy" />
+  <figcaption>Foto 1</figcaption>
+</figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-2.jpg" alt="Foto 2" loading="lazy" />
+          <figcaption>Foto 2</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-3.jpg" alt="Foto 3" loading="lazy" />
+          <figcaption>Foto 3</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-4.jpg" alt="Foto 4" loading="lazy" />
+          <figcaption>Foto 4</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-5.jpg" alt="Foto 5" loading="lazy" />
+          <figcaption>Foto 5</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-6.jpg" alt="Foto 6" loading="lazy" />
+          <figcaption>Foto 6</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-7.jpg" alt="Foto 7" loading="lazy" />
+          <figcaption>Foto 7</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-8.jpg" alt="Foto 8" loading="lazy" />
+          <figcaption>Foto 8</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-9.jpg" alt="Foto 9" loading="lazy" />
+          <figcaption>Foto 9</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-10.jpg" alt="Foto 10" loading="lazy" />
+          <figcaption>Foto 10</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-11.jpg" alt="Foto 11" loading="lazy" />
+          <figcaption>Foto 11</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-12.jpg" alt="Foto 12" loading="lazy" />
+          <figcaption>Foto 12</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-13.jpg" alt="Foto 13" loading="lazy" />
+          <figcaption>Foto 13</figcaption>
+        </figure>
+
+        <figure role="listitem">
+          <img src="images/foto-casa-14.jpg" alt="Foto 14" loading="lazy" />
+          <figcaption>Foto 14</figcaption>
+        </figure>
+
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="contact container" aria-labelledby="contacto-title">
+      <h2 id="contacto-title">Contacto</h2>
+
+      <form id="contactForm" class="contact-form" aria-label="Formulario de contacto">
+        <div class="field">
+          <label for="nombre">Nombre</label>
+          <input id="nombre" name="nombre" type="text" required autocomplete="name" />
+        </div>
+
+        <div class="field">
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" required autocomplete="email" />
+        </div>
+
+        <div class="field">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Enviar Mensaje</button>
+        <div id="formMessage" class="form-message" aria-live="polite"></div>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Casa en Alquiler. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="script.js" defer></script>
+</body>
+</html>
